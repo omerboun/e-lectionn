@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "Team";
+}
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <style>
+            .card-container {
+                display: flex;
+                justify-content: center;
+            }
+
+            .card {
+                margin-right: 10px;
+                transition: 0.3s;
+                width: 40%;
+                background-color: #fff;
+            }
+
+                .card:hover {
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+                }
+
+            .ci-container {
+                padding: 2px 16px;
+                background-color: #262624;
+                color: #fff;
+            }
+
+            .space {
+                height: 45px;
+            }
+
+            .card-img {
+                width: 100%;
+                height: 360px;
+            }
+        </style>
+
+        <div style="height:100px"></div>
+
+        <div class="card-container">
+            <div class="card">
+                <img class="card-img" src="~/images/eren.jpg" alt="Avatar" />
+                <div class="ci-container">
+                    <h4><b>Eren Kara</b></h4>
+                    <p>Front End Developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img"
+                     src="../images/firat.jpg"
+                     alt="Avatar"
+                     style="width:100%" />
+                <div class="ci-container">
+                    <h4><b>Fırat Can Koç</b></h4>
+                    <p>Front End Developer & Content Creator</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="~/images/onur.jpg" alt="Avatar"  />
+                <div class="ci-container">
+                    <h4><b>Onur Altaş</b></h4>
+                    <p>Back End Developer</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="../images/omer.jpg" alt="Avatar" />
+                <div class="ci-container">
+                    <h4><b>Ömer Faruk Aydınlı</b></h4>
+                    <p>Back End Developer & Graphic Designer</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
+
